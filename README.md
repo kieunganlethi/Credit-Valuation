@@ -18,7 +18,7 @@ Selecting the optimal model for accurate and stable credit classification.
 - Encoding: Applied Label Encoding to categorical variables.
 - Feature Engineering: Standardized continuous features, removed highly correlated variables (threshold = 0.8), and built a scikit-learn pipeline for reproducibility.
 2. Model Building and Evaluation
-- Implemented and compared five models using Stratified K-Fold Cross-Validation (k=5) with SMOTE applied inside each fold:*
+- Implemented and compared five models using Stratified K-Fold Cross-Validation (k=5) with SMOTE applied inside each fold:
 + Traditional model: Logistic Regression
 + Non-traditional models: Random Forest, XGBoost, CatBoost, Neural Network
 - Evaluation Metrics:
